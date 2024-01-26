@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Ai.css'
 function Ai() {
   return (
     <div className='section_dark'>
@@ -32,7 +32,7 @@ function Ai() {
                     <div className='avatars_row'>
                         <div className='avatars_row_items'>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -42,7 +42,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd08397f73bfbbc02fb_03.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd08397f73bfbbc02fb_03.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -52,7 +52,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd4c0886512e6dc092c_05.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd4c0886512e6dc092c_05.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -62,7 +62,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd403de1871d2d426cb_07.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd403de1871d2d426cb_07.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -72,7 +72,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccebdf82350d6317b90_08.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccebdf82350d6317b90_08.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -82,7 +82,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd894bb4d7d86799639_13.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd894bb4d7d86799639_13.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -92,7 +92,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd909abf7d03dbac4fb_10.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd909abf7d03dbac4fb_10.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -102,7 +102,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd2a7d01fc94a727fab_06.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd2a7d01fc94a727fab_06.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -112,102 +112,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
-                                <div className='avatar_btn_wrap'>
-                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
-                                        <div>Customize</div>
-                                        <div className='btn_right_arrow_icon w-embed'></div>
-                                    </a>
-                                </div>
-                                <div className='avatar_card_mask'></div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div className='avatars_row'>
-                        <div className='avatars_row_items'>
-                            <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
-                                <div className='avatar_btn_wrap'>
-                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
-                                        <div>Customize</div>
-                                        <div className='btn_right_arrow_icon w-embed'></div>
-                                    </a>
-                                </div>
-                                <div className='avatar_card_mask'></div>
-                            </div>
-                            <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd08397f73bfbbc02fb_03.webp" alt="" />
-                                <div className='avatar_btn_wrap'>
-                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
-                                        <div>Customize</div>
-                                        <div className='btn_right_arrow_icon w-embed'></div>
-                                    </a>
-                                </div>
-                                <div className='avatar_card_mask'></div>
-                            </div>
-                            <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd4c0886512e6dc092c_05.webp" alt="" />
-                                <div className='avatar_btn_wrap'>
-                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
-                                        <div>Customize</div>
-                                        <div className='btn_right_arrow_icon w-embed'></div>
-                                    </a>
-                                </div>
-                                <div className='avatar_card_mask'></div>
-                            </div>
-                            <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd403de1871d2d426cb_07.webp" alt="" />
-                                <div className='avatar_btn_wrap'>
-                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
-                                        <div>Customize</div>
-                                        <div className='btn_right_arrow_icon w-embed'></div>
-                                    </a>
-                                </div>
-                                <div className='avatar_card_mask'></div>
-                            </div>
-                            <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccebdf82350d6317b90_08.webp" alt="" />
-                                <div className='avatar_btn_wrap'>
-                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
-                                        <div>Customize</div>
-                                        <div className='btn_right_arrow_icon w-embed'></div>
-                                    </a>
-                                </div>
-                                <div className='avatar_card_mask'></div>
-                            </div>
-                            <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd894bb4d7d86799639_13.webp" alt="" />
-                                <div className='avatar_btn_wrap'>
-                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
-                                        <div>Customize</div>
-                                        <div className='btn_right_arrow_icon w-embed'></div>
-                                    </a>
-                                </div>
-                                <div className='avatar_card_mask'></div>
-                            </div>
-                            <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd909abf7d03dbac4fb_10.webp" alt="" />
-                                <div className='avatar_btn_wrap'>
-                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
-                                        <div>Customize</div>
-                                        <div className='btn_right_arrow_icon w-embed'></div>
-                                    </a>
-                                </div>
-                                <div className='avatar_card_mask'></div>
-                            </div>
-                            <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd2a7d01fc94a727fab_06.webp" alt="" />
-                                <div className='avatar_btn_wrap'>
-                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
-                                        <div>Customize</div>
-                                        <div className='btn_right_arrow_icon w-embed'></div>
-                                    </a>
-                                </div>
-                                <div className='avatar_card_mask'></div>
-                            </div>
-                            <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -222,7 +127,7 @@ function Ai() {
                     <div className='avatars_row'>
                         <div className='avatars_row_items'>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -232,7 +137,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd08397f73bfbbc02fb_03.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd08397f73bfbbc02fb_03.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -242,7 +147,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd4c0886512e6dc092c_05.webp" alt="" />
+                                <img className="card"src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd4c0886512e6dc092c_05.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -252,7 +157,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd403de1871d2d426cb_07.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd403de1871d2d426cb_07.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -262,7 +167,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccebdf82350d6317b90_08.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccebdf82350d6317b90_08.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -272,7 +177,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd894bb4d7d86799639_13.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd894bb4d7d86799639_13.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -282,7 +187,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd909abf7d03dbac4fb_10.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd909abf7d03dbac4fb_10.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -292,7 +197,7 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd2a7d01fc94a727fab_06.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd2a7d01fc94a727fab_06.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -302,7 +207,102 @@ function Ai() {
                                 <div className='avatar_card_mask'></div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                                <div className='avatar_card_mask'></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className='avatars_row'>
+                        <div className='avatars_row_items'>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                                <div className='avatar_card_mask'></div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd08397f73bfbbc02fb_03.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                                <div className='avatar_card_mask'></div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd4c0886512e6dc092c_05.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                                <div className='avatar_card_mask'></div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img  className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd403de1871d2d426cb_07.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                                <div className='avatar_card_mask'></div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccebdf82350d6317b90_08.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                                <div className='avatar_card_mask'></div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd894bb4d7d86799639_13.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                                <div className='avatar_card_mask'></div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd909abf7d03dbac4fb_10.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                                <div className='avatar_card_mask'></div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cd2a7d01fc94a727fab_06.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                                <div className='avatar_card_mask'></div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ccf7db78031ca7c4c2d_01.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="https://www.heygen.com/create-avatar" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -319,7 +319,7 @@ function Ai() {
                     <div className='avatars_row row2'>
                         <div className='avatars_row_items'>
                         <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -328,7 +328,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -337,7 +337,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4e5478bae9e191561_19.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4e5478bae9e191561_19.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -346,7 +346,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4d5b2d0fa8af4ca2d_20.webp" alt="" />
+                                <img  className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4d5b2d0fa8af4ca2d_20.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -355,7 +355,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/65675bbbb99d6f30f6127a6c_Avatar-7.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/65675bbbb99d6f30f6127a6c_Avatar-7.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -364,7 +364,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce5b97e22e1e396eca8_23.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce5b97e22e1e396eca8_23.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -373,7 +373,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -382,7 +382,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
+                                <img  className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -391,7 +391,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -400,10 +400,11 @@ function Ai() {
                                 </div>
                             </div>
                         </div>
-                        <div className='avatars_row row2'>
+                    </div>
+                    <div className='avatars_row row2'>
                         <div className='avatars_row_items'>
                         <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -412,7 +413,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -421,7 +422,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4e5478bae9e191561_19.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4e5478bae9e191561_19.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -430,7 +431,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4d5b2d0fa8af4ca2d_20.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4d5b2d0fa8af4ca2d_20.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -439,7 +440,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/65675bbbb99d6f30f6127a6c_Avatar-7.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/65675bbbb99d6f30f6127a6c_Avatar-7.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -448,7 +449,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce5b97e22e1e396eca8_23.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce5b97e22e1e396eca8_23.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -457,7 +458,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -466,7 +467,7 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -475,7 +476,92 @@ function Ai() {
                                 </div>
                             </div>
                             <div className='avatar_card'>
-                                <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='avatars_row row2'>
+                        <div className='avatars_row_items'>
+                        <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4111dd4df1ef2ad75_18.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4e5478bae9e191561_19.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce4d5b2d0fa8af4ca2d_20.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/65675bbbb99d6f30f6127a6c_Avatar-7.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3ce5b97e22e1e396eca8_23.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
+                                <div className='avatar_btn_wrap'>
+                                    <a href="" className='button_avatar_card w-inline-block'>
+                                        <div>Customize</div>
+                                        <div className='btn_right_arrow_icon w-embed'></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className='avatar_card'>
+                                <img className="card" src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656b3cee111dd4df1ef2b15b_25.webp" alt="" />
                                 <div className='avatar_btn_wrap'>
                                     <a href="" className='button_avatar_card w-inline-block'>
                                         <div>Customize</div>
@@ -486,8 +572,7 @@ function Ai() {
                         </div>
                     </div>
                 </div>
-                <div className='dark_section_light_blur_bg'></div>
-                <div className='w-embed'></div>
+
             </div>
         </div>
         <div className='w-layout-blockcontainer heygen_container w-container'>
@@ -498,7 +583,7 @@ function Ai() {
                             <h3 className='avatar_video_heading'>Instant avatar</h3>
                             <p className='heygen_para is-light is-small'>A lifestyle avatar in a natural setting</p>
                         </div>
-                        <a href="" className='button_primary w-inline-block'>
+                        <a href="" className='button_primary1 w-inline-block'>
                             <div>Get started for free</div>
                             <div className='btn_right_arrow_icon w-embed'></div>
                         </a>
