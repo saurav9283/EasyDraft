@@ -192,6 +192,7 @@ img{
     padding: 40px;
     display: grid;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .how_card_num {
     max-width: 742px;

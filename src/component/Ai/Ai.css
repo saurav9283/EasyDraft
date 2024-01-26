@@ -1,0 +1,20 @@
+
+.avatars_row {
+    will-change: transform;
+    animation: avatar-horizontal 250s linear infinite;
+  }
+  
+  .avatars_row.row2{
+    will-change: transform;
+    animation: avatar-left-horizontal 250s linear infinite;
+  }
+  
+  @keyframes avatar-horizontal {
+      from { transform: translateX(0); }
+      to { transform: translateX(-100%); }
+    }
+  
+  @keyframes avatar-left-horizontal {
+      from { transform: translateX(0); }
+      to { transform: translateX(100%); }
+    }
