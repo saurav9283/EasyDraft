@@ -17,6 +17,12 @@
     margin-right: auto;
     display: flex;
 }
+.heygen_para1 {
+    font-weight: 400;
+    z-index: 2;
+    color: #317ecb;
+    font-size: 24px;
+}
 .heygen_container {
     width: 100%;
     max-width: 77.5rem;

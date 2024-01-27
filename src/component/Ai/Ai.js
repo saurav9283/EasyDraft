@@ -1,4 +1,8 @@
 import React from 'react'
+import d5 from "./../../video/d5.png";
+import d6 from "./../../video/d6.png";
+import d7 from "./../../video/d7.png";
+
 import './Ai.css'
 function Ai() {
   return (
@@ -590,9 +594,60 @@ function Ai() {
                     </div>
                     <div className='avatar_video'>
                         <div className='avatar_video_wrap w-embed'>
-                            <video src="https://resource.heygencdn.com/homepage/AIavatar_instant4.mp4"></video>
+                            <video src="https://resource.heygencdn.com/homepage/AIavatar_instant4.mp4" className='muted-video'></video>
                         </div>
-                        <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656d364fce05a3b01d9a0a31_Video%20(1).webp" className='video-preview' alt="" />
+                        <img src={d5} className='video-preview' alt="" />
+                        <div className='video_purple_blur'></div>
+                        <div className='class="video_btn_wrap"'>
+                            <div className='video_btn_square'>
+                                <div className='btn_play_icon w-embed'></div>
+                            </div>
+                        </div>
+                        <div className='avatars_section_item_line w-embed'></div>
+                    </div>
+
+                </div>
+                <div className='avatar_video_item'>
+                    <div className='avatar_video_heading_wrapper'>
+                        <div className='avatar_video_head'>
+                            <h3 className='avatar_video_heading'>Instant avatar</h3>
+                            <p className='heygen_para is-light is-small'>A lifestyle avatar in a natural setting</p>
+                        </div>
+                        <a href="" className='button_primary1 w-inline-block'>
+                            <div>Get started for free</div>
+                            <div className='btn_right_arrow_icon w-embed'></div>
+                        </a>
+                    </div>
+                    <div className='avatar_video'>
+                        <div className='avatar_video_wrap w-embed'>
+                            <video src="https://resource.heygencdn.com/website/vera_remove/aiavatar_studio3.mp4" className='muted-video'></video>
+                        </div>
+                        <img src={d6} className='video-preview' alt="" />
+                        <div className='video_purple_blur'></div>
+                        <div className='class="video_btn_wrap"'>
+                            <div className='video_btn_square'>
+                                <div className='btn_play_icon w-embed'></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className='avatar_video_item'>
+                    <div className='avatar_video_heading_wrapper'>
+                        <div className='avatar_video_head'>
+                            <h3 className='avatar_video_heading'>Instant avatar</h3>
+                            <p className='heygen_para is-light is-small'>A lifestyle avatar in a natural setting</p>
+                        </div>
+                        <a href="" className='button_primary1 w-inline-block'>
+                            <div>Get started for free</div>
+                            <div className='btn_right_arrow_icon w-embed'></div>
+                        </a>
+                    </div>
+                    <div className='avatar_video'>
+                        <div className='avatar_video_wrap w-embed'>
+                            <video src="https://resource.heygencdn.com/homepage/AIavatar_photo4.mp4" className='muted-video'></video>
+                        </div>
+                        <img src={d7} className='video-preview' alt="" />
                         <div className='video_purple_blur'></div>
                         <div className='class="video_btn_wrap"'>
                             <div className='video_btn_square'>

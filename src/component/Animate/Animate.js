@@ -37,7 +37,7 @@ function Animate() {
             </div>
           </a>
           <div id="w-node-b02be2ee-7fa1-2174-402e-55adf03ec90a-8c4e74c2" className="how_para">
-            <p className="heygen_para">Whether you're a professional or beginner, you can create stunning videos in minutes instead of hours.</p>
+            <p className="heygen_para1">Whether you're a professional or beginner, you can create stunning videos in minutes instead of hours.</p>
           </div>
         </div>
       </div>
