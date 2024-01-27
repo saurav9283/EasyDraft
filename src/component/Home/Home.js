@@ -235,10 +235,7 @@ function Home() {
                   <div id="w-node-acbe90e9-4c8f-0138-a534-db5ffd0856f4-8c4e74c2">
                     <div className="script_heading">Script</div>
                     <div id="hero-script" className="script_para">
-                      {/* {" "} */}
-                      my name is saurav kumar i am fphagwara my name is saurav
-                      kumar i am from jharkhand persuing b. tech in computer
-                      science from LPU punjba phagwara
+                    Hey there! Welcome to HeyGen - where you can easily create fun, high-quality videos using our AI avatars and voices. In just a few clicks, you can generate custom videos for social media, presentations, educatio
                     </div>
                   </div>
                 </div>

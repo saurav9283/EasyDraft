@@ -107,7 +107,7 @@
 ._2_btns_or_wrap {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
-    color: var(--heygen--light-purple);
+    color: #9370db;
     align-items: center;
     margin-bottom: 100px;
     display: flex;
@@ -116,7 +116,7 @@
 .button_primary1 {
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
-    color: var(--neutral-10);
+    color: #f0f0f0;
     text-align: center;
     white-space: nowrap;
     background-color: transparent;
@@ -132,12 +132,12 @@
 }
 
 .w-inline-block {
-    max-width: 100%;
+    /* max-width: 100%; */
     display: inline-block;
 }
 
 a {
-    color: var(--medium-slate-blue);
+    color: #7b68ee;
     text-decoration: none;
     transition: all .2s ease-in-out;
 }
@@ -161,7 +161,7 @@ img {
 .button_secondary {
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
-    color: var(--neutral-10);
+    color: #f0f0f0;
     text-align: center;
     background-color: rgba(117, 89, 255, .1);
     border: 1px solid #7559ff;
@@ -173,7 +173,6 @@ img {
     line-height: 1.5;
     display: flex;
 }
-
 
 .avatars_cards_wrapper {
     flex-direction: column;
@@ -270,7 +269,7 @@ img {
     grid-row-gap: 0.5rem;
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
-    color: var(--neutral-10);
+    color: #f0f0f0;
     text-align: center;
     background-color: rgba(12, 6, 44, .5);
     border: 1px solid rgba(255, 255, 255, .1);
@@ -330,7 +329,7 @@ img {
 .video_purple_blur {
     width: 70%;
     height: 90%;
-    background-color: var(--heygen--primary);
+    background-color:#3498db;
     opacity: .5;
     filter: blur(54px);
     border-radius: 100%;
@@ -355,7 +354,7 @@ img {
 .video_btn_square {
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
-    color: var(--neutral-10);
+    color: #f0f0f0;
     cursor: pointer;
     background-color: rgba(0, 0, 0, .5);
     border: 1px solid rgba(255, 255, 255, .1);

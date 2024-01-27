@@ -242,8 +242,7 @@ function Voice() {
               <div>
                 <div className="text-block-90">Script</div>
                 <div className="ai_voices_script">
-                  hi my name is siaravs jhhd hsdycbadmn jh hhb vyhyjsddvasds hv
-                  jvxh
+                Hey there! Welcome to HeyGen! This is what we sound like in another language.
                 </div>
               </div>
               <a href="" className="button-10 w-button">
