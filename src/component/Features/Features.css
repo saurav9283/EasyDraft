@@ -166,8 +166,8 @@ img {
     transform: rotate(-8.8deg);
 }
 .feature_integration_logo {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 24px;
     box-shadow: 0 1px 1px rgba(117,89,255,.04), 0 2px 4px rgba(117,89,255,.07), 0 9px 20px rgba(117,89,255,.11);
 }
@@ -402,8 +402,9 @@ video {
     box-shadow: 0 1px 1px rgba(117,89,255,.04), 0 2px 4px rgba(117,89,255,.07), 0 9px 20px rgba(117,89,255,.11);
 }
 .integration_logos_row {
+    display: flex;
     will-change: transform;
-    animation: feature-horizontal 150s linear infinite;
+    animation: feature-horizontal 20s linear infinite;
   }
   
   @keyframes feature-horizontal {

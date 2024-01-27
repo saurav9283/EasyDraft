@@ -149,7 +149,7 @@ img {
     font-weight: 500;
 }
 .purple-span {
-    background-image: linear-gradient(to right,var(--heygen001),var(--heygen002));
+    /* background-image: linear-gradient(to right,var(--heygen001),var(--heygen002)); */
     color: #7b68ee;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -332,20 +332,6 @@ img {
     justify-content: space-between;
     align-items: center;
     display: flex;
-}
-.voices_slider_heading {
-    color: #4e5666;
-    font-size: 28px;
-    font-weight: 500;
-}
-.purple-span {
-    background-image: linear-gradient(to right,var(--heygen001),var(--heygen002));
-    color: #7b68ee;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    margin-right: -5px;
-    padding-right: 5px;
 }
 .ai_voice_script {
     justify-content: center;

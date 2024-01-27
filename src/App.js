@@ -1,5 +1,5 @@
 import './App.css';
-import Created from './Created/Created.js';
+import Created from './component/Created/Created.js';
 import Ai from './component/Ai/Ai.js';
 import Animate from './component/Animate/Animate.js';
 import Avatars from './component/Avatars/Avatars.js';

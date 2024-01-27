@@ -74,18 +74,6 @@ function Features() {
                                     <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656437bdf32c4fcae5438b29_chatgpt.webp" className='feature_integration_logo' alt="" />
                                     <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/6566d9b35fd911cd666cc204_discord.webp" className='feature_integration_logo' alt="" />
                                 </div>
-                                <div className='integration_logos_row'>
-                                    <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656437be31f6f4a6fe2e16a6_zapier.webp" className='feature_integration_logo' alt="" />
-                                    <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656437c09837db5b566a7bae_canva.webp" className='feature_integration_logo' alt="" />
-                                    <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656437bdf32c4fcae5438b29_chatgpt.webp" className='feature_integration_logo' alt="" />
-                                    <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/6566d9b35fd911cd666cc204_discord.webp" className='feature_integration_logo' alt="" />
-                                </div>
-                                <div className='integration_logos_row'>
-                                    <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656437be31f6f4a6fe2e16a6_zapier.webp" className='feature_integration_logo' alt="" />
-                                    <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656437c09837db5b566a7bae_canva.webp" className='feature_integration_logo' alt="" />
-                                    <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/656437bdf32c4fcae5438b29_chatgpt.webp" className='feature_integration_logo' alt="" />
-                                    <img src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/6566d9b35fd911cd666cc204_discord.webp" className='feature_integration_logo' alt="" />
-                                </div>
                                 
                             </div>
                         </div>
