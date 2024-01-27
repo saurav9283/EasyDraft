@@ -20,7 +20,7 @@ function Ai() {
                         <div>or</div>
                         <a href="https://www.heygen.com/create-avatar" className='button_secondary w-inline-block'>
                             <div className='btn_video_icon w-embed'></div>
-                            <div>Create your own custom avatar</div>
+                            <div className="custom">Create your own custom avatar</div>
                         </a>
                     </div>
                 </div>
