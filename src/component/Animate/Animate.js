@@ -14,7 +14,7 @@ function Animate() {
           </h2>
           <div className="how_video">
             <div className="how_video_wrap w-embed">
-              <video src=""></video>
+              <video src="https://resource.heygencdn.com/website/vera_remove/howitworks_new2.mp4" className="muted-video"></video>
             </div>
             <img
               src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/65b35cdd5e61d023f1a1400b_Video%20Frame.png"
